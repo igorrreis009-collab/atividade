@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Parte 2 - Interface',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 243, 33, 33),
+        ),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Minha Interface Flutter'),
@@ -29,7 +31,10 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.blue, title: Text(title)),
+      appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 226, 33, 243),
+        title: Text(title),
+      ),
       body: Container(
         width: double.infinity,
         height: double.infinity,
