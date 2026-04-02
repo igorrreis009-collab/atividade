@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Salve tropinha do ff',
+                'salve salve tropa',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
